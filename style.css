@@ -106,7 +106,28 @@ body {
     text-align: right;
 }
 
-button {
+.CTAction {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 128px 256px;
+    padding: 48px 128px;
+    background-color: #3882F6;
+    border-radius: 16px;
+}
+
+.actionHeader {
+    font-size: 24px;
+    font-weight: bold;
+    color: #f9faf8;
+}
+
+.actionText {
+    font-size: 18px;
+    color: #f9faf8;
+}
+
+.hero button {
     background-color: #3882F6;
     color:#f9faf8;
     font-size: 18px;
@@ -115,6 +136,17 @@ button {
     border-radius: 8px;
     border: none;
 }
+
+.CTAction button {
+    border-color: #f9faf8;
+    background-color: #3882F6;
+    color:#f9faf8;
+    font-size: 18px;
+    font-weight: 900;
+    padding: 8px 32px 8px 32px;
+    border-radius: 8px;
+}
+
 
 ul {
     list-style-type: none;
